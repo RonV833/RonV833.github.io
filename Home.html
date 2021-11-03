@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.1/font/bootstrap-icons.css">
+    <title>Home</title>
+</head>
+<body>
+<!--Nav Section-->
+<section id="nav-bar">
+    <nav class="navbar navbar-expand-sm navbar-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="Home.html"><img class="img-fluid" src="image/logo.png" alt="logo"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="Home.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Nature.html">Nature</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Lifestyle.html">Lifestyle</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Aboutus.html">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Contactus.html">Contact Us</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-light" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+</section>
+<!--The intro section-->
+<section id="intro">
+    <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <p class="promo-title">Behind Insight Magazine</p>
+            <p>Look through the Facade of Nature, Lifestyle of Today and The Rough Image of our Future</p>
+            <a href="https://oceanservice.noaa.gov/ocean/earthday.html" target="_blank"><img class="saveit" src="image/saveit.jpg" alt="saveit">Be one of Us</a>
+          </div>
+          <div class="col-md-6">
+              <video class="img-fluid" src="media/bestart.mp4" controls="controls"></video>
+          </div>
+        </div>
+    </div>
+</section>
+<!--The Main contents Clips-->
+<section id="clips">
+    <div class="container text-center ">
+      <h1 class="title">Experience</h1>
+      <div class="row text-center my-5">
+        <div class="col-md-3 clips">
+          <img src="image/athens.jpg" alt="athens" class="img-fluid">
+          <a href="https://www.nationalgeographic.com/travel" target="_blank"><h4>Timeless scenes</h4></a>
+          <p>Despite the passage of time and the abadonement some past structure still maintains its grandeur</p>
+        </div>
+        <div class="col-md-3 clips">
+          <img src="image/bison.jpg" alt="bison" class="img-fluid">
+          <a href="https://www.nationalgeographic.com/animals" target="_blank"><h4>Wonders of Nature</h4></a>
+          <p>How much do we really know about the animal kingdom and its environment and their survivals</p>
+        </div>
+        <div class="col-md-3 clips">
+          <img src="image/lifestyle.jpg" alt="lifestyle" class="img-fluid">
+          <a href="https://www.shape.com/lifestyle" target="_blank"><h4>Lifestyle of Today</h4></a>
+          <p>Given the fast changing society how much are we really into it and how it changed us</p>
+        </div>
+        <div class="col-md-3 clips">
+          <img src="image/saveearth.jpg" alt="saveearth" class="img-fluid">
+          <a href="https://www.nationalgeographic.com/environment" target="_blank"><h4>Saving for Future</h4></a>
+          <p>How are going to make sure that what we are seeing today will remain in the future</p>
+        </div>
+      </div>
+      <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#exampleModal">Subscribe for More</button>
+      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                  <form>
+                <div class="mb-3">
+                    <label for="email" class="form-label"></label>
+                    <input type="email" class="form-control" name="email" placeholder="Input your Email Here" >
+                </div>
+                <div class="mb-3">
+                    <label for="password" class="form-label"></label>
+                    <input type="password" class="form-control" name="password" placeholder="Type your Password Here">
+                </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                  </form>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+</section>
+<!--About Us clips-->
+<section id="about-clips">
+  <div class="container">
+        <h1 class="title">Whats For Future</h1>
+    <div class="row">
+      <div class="col-md-6">
+      <p> What Do We Seek</p>
+      <ul>
+        <li>To gain more understanding about how much our lifestyle varies and how much it reflects on our society</li>
+        <li>To learn more about how the animals operate themlselves and their impact on us</li>
+        <li>To see past the relationship of our lifestyle to nature</li>
+        <li>To grasp the sustainability of our own planet for future generations to come</li>
+      </ul>
+      </div>
+      <div class="col-md-6">
+        <img class="img-fluid img-thumbnail" src="image/bird.jpg" alt="bird">
+      </div>
+    </div>
+  </div>
+</section>
+<!--campaign groups-->
+<section id="campaign">
+  <div class="container text-center">
+    <h1 class="title">Learn More About the Other Groups</h1>
+    <div class="row text-center my-5">
+      <div class="col-lg-3">
+          <div class="card">
+            <img src="image/horse.jpg" class="card-img-top" alt="horse">
+            <div class="card-body bg-dark">
+              <a href="https://www.nationalgeographic.org/encyclopedia/wildlife-conservation/" target="_blank"><h4 class="title">Animal Saving</h4></a>
+            </div>
+          </div>
+      </div>
+      
+      <div class="col-lg-3">
+        <div class="card">
+          <img src="image/cleanup.jpg" class="card-img-top" alt="cleanup">
+          <div class="card-body bg-dark">
+            <a href="https://theoceancleanup.com/" target="_blank"><h4 class="title">Ocean Clean-Ups</h4></a>
+          </div>
+        </div>
+      </div>
+      
+      <div class="col-lg-3">
+        <div class="card">
+          <img src="image/solar.jpg" class="card-img-top" alt="solar">
+          <div class="card-body bg-dark">
+            <a href="https://theconversation.com/au/topics/solar-farms-38655" target="_blank"><h4 class="title">Solar Farming</h4></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-3">
+        <div class="card">
+          <img src="image/ppolutioncontrol.jpg" class="card-img-top" alt="ppolutioncontrol">
+          <div class="card-body bg-dark">
+            <a href="https://www.jica.go.jp/jica-ri/IFIC_and_JBICI-Studies/english/publications/reports/study/topical/health/pdf/health_08.pdf" target="_blank"><h4 class="title">Pollution Control</h4></a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+<!--Follow us On Section-->
+<section id="social-media">
+    <div class="container text-center">
+        <p>FOLLOW US ON SOCIAL MEDIA</p>
+        <div class="icon">
+            <a href="https://www.facebook.com/" target="_blank"><img src="image/fb.jpg" alt="facebook"></a>
+            <a href="https://twitter.com/" target="_blank"><img src="image/twitter.jpg" alt="twitter"></a>
+            <a href="https://www.instagram.com/" target="_blank"><img src="image/insta.jpg" alt="instagram"></a>
+            <a href="https://www.whatsapp.com/" target="_blank"><img src="image/whatsapp.jpg" alt="whatsapp"></a>
+            <a href="https://ph.linkedin.com/" target="_blank"><img src="image/linkedin.jpg" alt="linkedin"></a>
+        </div>
+    </div>
+</section>
+<!--Footer Section-->
+<section id="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 footer-box">
+                  <img class="img-fluid" src="image/logo.png" alt="logo">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia tempore eius iste at quas totam, fugiat expedita magnam odit accusamus, numquam similique nulla repudiandae dolorum possimus doloribus quaerat ab sit?</p>
+            </div>
+            <div class="col-md-4 footer-box">
+                  <p>CONTACT US</p>
+                  <p><i class="bi bi-geo-alt"></i> Bonifacio Global City, Taguig</p>
+                  <p><i class="bi bi-geo-alt"></i> Metro Manila, Philippines</p>
+                  <p><i class="bi bi-telephone-fill"></i> (02)-1234-9876</p>
+                  <p><i class="bi bi-envelope"></i> bhinsight@gmail.com</p>
+            </div>
+            <div class="col-md-4 footer-box">
+              <p><b>Sign Up</b></p>
+              <form>
+                <label for="signup"><p><b>SUBSCRIBE FOR LATEST UPDATES</b></p></label>
+                <input type="email" class="form-control" placeholder="Type Your Email Here">
+                <button type="button" class="btn btn-dark">Subscribe</button>
+              </form>
+            </div>
+        </div>
+        <hr>
+        <p class="copyright">Website Crafted By Ronald Velarde for Mini Project <br>Copyright &copy; 2021</p>
+        
+    </div>
+</section>
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>   
+</body>
+</html>
